@@ -183,8 +183,8 @@ header.masthead .device-container .screen img {
   header.masthead {
     height: 100vh;
     min-height: 775px;
-    padding-top: 0;
-    padding-bottom: 0;
+    /*padding-top: 0;
+    padding-bottom: 0;*/
   }
   header.masthead .header-content {
     margin-bottom: 0;
@@ -434,4 +434,22 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+/*grid*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
